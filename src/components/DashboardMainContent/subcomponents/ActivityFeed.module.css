@@ -1,0 +1,45 @@
+.activityFeed {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.sectionTitle {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+  color: #1a237e;
+}
+
+.activitySummary {
+  margin: 0 0 1.5rem;
+  font-size: 0.9rem;
+  color: #757575;
+}
+
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart {
+  display: flex;
+  align-items: flex-end;
+  height: 150px;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.chartBar {
+  flex: 1;
+  background-color: #e3f2fd;
+  border-radius: 4px 4px 0 0;
+  min-height: 1px;
+}
+
+.chartLabels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #757575;
+}

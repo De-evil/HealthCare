@@ -1,0 +1,79 @@
+.anatomySection {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.sectionTitle {
+  margin: 0 0 1.5rem;
+  font-size: 1.2rem;
+  color: #1a237e;
+}
+
+.anatomyContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.humanBody {
+  position: relative;
+  width: 200px;
+  height: 400px;
+}
+
+.bodyPlaceholder {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+}
+
+.healthIndicator {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  background-color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* .indicatorDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4caf50;
+} */
+
+.indicatorDot.critical {
+  background-color: #f44336;
+}
+
+.indicatorDot.warning {
+  background-color: #ff9800;
+}
+
+.heartIndicator {
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.lungsIndicator {
+  top: 35%;
+  left: 30%;
+}
+
+.teethIndicator {
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.boneIndicator {
+  bottom: 15%;
+  left: 40%;
+}

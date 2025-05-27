@@ -1,0 +1,32 @@
+.upcomingSchedule {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.sectionTitle {
+  margin: 0 0 1.5rem;
+  font-size: 1.2rem;
+  color: #1a237e;
+}
+
+.daySection {
+  margin-bottom: 1.5rem;
+}
+
+.daySection:last-child {
+  margin-bottom: 0;
+}
+
+.dayTitle {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  color: #757575;
+}
+
+.appointments {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
