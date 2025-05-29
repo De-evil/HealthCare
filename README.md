@@ -1,12 +1,36 @@
-# React + Vite
+# 🏥 Healthcare Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive Healthcare Dashboard built using **React.js**, designed to replicate a static UI design. The dashboard features a modern interface with sections like a sidebar, header, calendar, anatomy visualization, and mock data components.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📅 **Calendar Integration** – Displays the current date and allows scheduling
+- 🧠 **Anatomy Section** – Visual representation of the human body
+- 📊 **Mock Data Cards** – Showcases vital health metrics with dummy data
+- 📌 **Sticky Sidebar & Header** – Clean navigation and top bar
+- 💻 **Responsive Design** – Optimized for desktops, tablets, and mobile
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js, CSS
+- **Icons:** Lucide-react
+ 
+
+## 📦 Installation
+
+1. **Clone the Repository**
+  - git init
+  - git add .
+  - git status
+  - git commit -m "Initial Dashboard setup"
+  - git push origin main
+
+
+## 📦 Dependencies
+
+npm install 
+npm install lucide-react
+npm run dev
+
+
+
